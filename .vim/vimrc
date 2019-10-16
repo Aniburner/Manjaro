@@ -54,7 +54,7 @@ map sk :set splitbelow<CR>:split<CR>
 map si :set nosplitbelow<CR>:split<CR>
 " press space space to jump to the next <++> and edit it 
 map <LEADER><LEADER> <Esc>/<++><CR>:nohlsearch<CR>c4l
-inoremap <C-h> <++> 
+inoremap <C-p> <++>
 " use figlet to insert art ASCII
 map fl :r !figlet
 " change word to uppercase in insert mode
